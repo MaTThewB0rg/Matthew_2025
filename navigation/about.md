@@ -36,9 +36,9 @@ permalink: /about/
     var http_source = "https://upload.wikimedia.org/wikipedia/commons/";
     var living_in_the_world = [
         {"flag": "0/01/Flag_of_California.svg", "greeting": "Hey", "description": "California - forever"},
-        {"flag": "0/05/Flag_of_Brazil.svg", "greeting": "Hi", "description": "Brazil -"},
-        {"flag": "b/be/Flag_of_England.svg", "greeting": "Alright mate", "description": "England - 2 years"},
-        {"flag": "e/ef/Flag_of_Hawaii.svg", "greeting": "Aloha", "description": "Hawaii - 2 years"},
+        {"flag": "0/05/Flag_of_Brazil.svg", "greeting": "ola", "description": "Brazil"},
+        {"flag": "4/4c/Flag_of_Sweden.svg", "greeting": "Hej", "description": "Sweden"},
+        {"flag": "a/a4/Flag_of_the_United_States.svg", "greeting": "Hello", "description": "USA"},
     ]; 
     
     // 3a. Consider how to update style count for size of container
