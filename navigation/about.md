@@ -21,6 +21,18 @@ permalink: /about/
     .grid-item p {
         margin: 5px 0; /* Add some margin for spacing */
     }
+     .image-gallery {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 10px;
+        }
+
+    .image-gallery img {
+        max-height: 150px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
 </style>
 
 <!-- This grid_container class is for the CSS styling, the id is for JavaScript connection -->
@@ -71,5 +83,30 @@ permalink: /about/
         container.appendChild(gridItem);
     }
 </script>
+## Schools I Went To
+
+Here are some schools I sent to
+
+- Monterey Ridge: My elementary school
+- Oak Valley Middle School: My middle school
+- Del Norte High School: The school im at right now
+
+  ## My Family
+
+  Here are some things about me and my family
+
+  - I have one sister
+  - My mom is in biotech and my dad is in engineering
+  - My Mom is from Brazil and my Dad is from Sweden
+  - My sister goes to Monterey Ridge currently
+ 
+  <div class="image-gallery">
+  <img src="{{site.baseurl}}/images/about/download (6).jpeg" alt="Image 1">
+  <img src="{{site.baseurl}}/images/about/download (7).jpeg" alt="Image 2">
+  <img src="{{site.baseurl}}/images/about/download (8).jpeg" alt="Image 3">
+  <img src="{{site.baseurl}}/images/about/download (9).jpeg" alt="Image 4">
+  <img src="{{site.baseurl}}/images/about/download (10).jpeg" alt="Image 5">
+
+</div>
 
 Creator of Student 2025
