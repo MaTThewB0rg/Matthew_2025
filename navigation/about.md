@@ -109,4 +109,15 @@ Here are some schools I sent to
 
 </div>
 
+<script src="https://utteranc.es/client.js"
+        repo="MaTThewB0rg/Matthew_2025"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+-->
+
+
 Creator of Student 2025
