@@ -6,3 +6,4 @@ permalink: /fanum/
 
 {% include nav/home.html %}
 
+fanum
