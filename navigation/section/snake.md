@@ -1,9 +1,9 @@
 --- 
 Layout: page
-title: Fanum
-permalink: /fanum/
+title: Snake
+permalink: /Snake/
 ---
 
 {% include nav/home.html %}
 
-### fanum
+
