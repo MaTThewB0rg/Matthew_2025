@@ -193,6 +193,9 @@ New kasm test
 
 My journey starts here.
 
+This is emphasis
+> Did you know that sahaas spelled backwards is saahas?
+
 ### Markdown samples  [[markdown cheatsheet] ](https://www.markdownguide.org/cheat-sheet/)
 Using markdown form index.md. We are learning Markdown
 
