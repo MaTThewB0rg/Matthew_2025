@@ -1,7 +1,9 @@
 --- 
 Layout: page
 title: Snake
-permalink: /Snake/
+permalink: /snake/
+course: snake
+menu: nav/home.html
 ---
 
 {% include nav/home.html %}
