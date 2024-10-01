@@ -17,17 +17,17 @@ permalink: /rpg/
     const image = {src: image_src, data: image_data};
 
     // Sprite data
-    const sprite_src = "{{site.baseurl}}/images/rpg/zombiemove.png";
+    const sprite_src = "{{site.baseurl}}/images/rpg/manwalkvery.png";
     const sprite_data = {
         SCALE_FACTOR: 10,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
         pixels: {height: 280, width: 256},
-        orientation: {rows: 3, columns: 4 },
+        orientation: {rows: 4, columns: 6 },
         down: {row: 0, start: 0, columns: 3 },
-        left: {row: 1, start: 0, columns: 3 },
-        right: {row: 2, start: 0, columns: 3 },
-        up: {row: 3, start: 0, columns: 3 },
+        left: {row: 1, start: 0, columns: 2 },
+        right: {row: 2, start: 0, columns: 2 },
+        up: {row: 4, start: 0, columns: 3 },
     };
     const sprite = {src: sprite_src, data: sprite_data};
 
