@@ -24,10 +24,10 @@ permalink: /rpg/
         ANIMATION_RATE: 50,
         pixels: {height: 183, width: 275},
         orientation: {rows: 4, columns: 6 },
-        down: {row: 0, start: 0, columns: 2 },
-        left: {row: 1, start: 0, columns: 2 },
-        right: {row: 2, start: 0, columns: 2 },
-        up: {row: 4, start: 0, columns: 3 },
+        down: {row: 0, start: 0, columns: 6 },
+        left: {row: 1, start: 0, columns: 6 },
+        right: {row: 2, start: 0, columns: 6 },
+        up: {row: 3, start: 0, columns: 6 },
     };
     const sprite = {src: sprite_src, data: sprite_data};
 
