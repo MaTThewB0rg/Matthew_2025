@@ -16,6 +16,7 @@ Here are some of my ideas I could implement into my rpg game.
  - having the ability to loot and collect stuff like weapons and items
   - different objectives like quests or missions
 - rewards for doing quests
+- Powerups that change your character size and speed
 
 <br>
 <br>
