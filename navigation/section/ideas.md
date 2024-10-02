@@ -19,3 +19,8 @@ Here are some of my ideas I could implement into my rpg game.
 
 <br>
 <br>
+
+### My rpg right now
+
+![image](https://github.com/user-attachments/assets/144e10b7-ff4d-4631-8492-35ca97a7cd4f)
+
