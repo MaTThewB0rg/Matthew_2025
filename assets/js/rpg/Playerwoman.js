@@ -1,6 +1,6 @@
 import Player from './Player.js';
 
-class sprite1 extends Player {
+class sprite extends Player {
     constructor(imageSrc = null) {
         super(imageSrc);
     }
@@ -15,19 +15,19 @@ class sprite1 extends Player {
 
     handleKeyDown({ keyCode }) {
         switch (keyCode) {
-            case 87: // 'W' key
+            case 87: // 'I' key
                 this.velocity.y -= this.yVelocity;
                 this.direction = 'up';
                 break;
-            case 65: // 'A' key
+            case 65: // 'J' key
                 this.velocity.x -= this.xVelocity;
                 this.direction = 'left';
                 break;
-            case 83: // 'S' key
+            case 83: // 'K' key
                 this.velocity.y += this.yVelocity;
                 this.direction = 'down';
                 break;
-            case 68: // 'D' key
+            case 68: // 'L' key
                 this.velocity.x += this.xVelocity;
                 this.direction = 'right';
                 break;
@@ -43,16 +43,16 @@ class sprite1 extends Player {
      */
     handleKeyUp({ keyCode }) {
         switch (keyCode) {
-            case 87: // 'i' key
+            case 87: // 'I' key
                 this.velocity.y = 0;
                 break;
-            case 65: // 'j' key
+            case 65: // 'J' key
                 this.velocity.x = 0;
                 break;
-            case 83: // 'k' key
+            case 83: // 'K' key
                 this.velocity.y = 0;
                 break;
-            case 68: // 'l' key
+            case 68: // 'L' key
                 this.velocity.x = 0;
                 break;
         }
