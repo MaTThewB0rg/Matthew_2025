@@ -31,19 +31,7 @@ permalink: /rpg/
     };
     const sprite = {src: sprite_src, data: sprite_data};
     
-     const sprite_src = "{{site.baseurl}}/images/rpg/girlwalk.png";
-    const sprite_data = {
-        SCALE_FACTOR: 10,
-        STEP_FACTOR: 1000,
-        ANIMATION_RATE: 50,
-        pixels: {height: 264, width: 262},
-        orientation: {rows: 4, columns: 4 },
-        down: {row: 0, start: 0, columns: 4 },
-        left: {row: 1, start: 0, columns: 4 },
-        right: {row: 2, start: 0, columns: 4 },
-        up: {row: 3, start: 0, columns: 4 },
-    };
-    const sprite = {src: sprite_src, data: sprite_data};
+
     
 
     // Assets for game
