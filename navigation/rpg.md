@@ -17,8 +17,8 @@ permalink: /rpg/
     const image = {src: image_src, data: image_data};
 
     // Sprite data
-    const sprite_src = "{{site.baseurl}}/images/rpg/rightnowman.png";
-    const sprite_data = {
+    const sprite1_src = "{{site.baseurl}}/images/rpg/rightnowman.png";
+    const sprite1_data = {
         SCALE_FACTOR: 10,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
@@ -28,6 +28,20 @@ permalink: /rpg/
         left: {row: 1, start: 0, columns: 6 },
         right: {row: 2, start: 0, columns: 6 },
         up: {row: 3, start: 0, columns: 6 },
+    };
+    const sprite = {src: sprite_src, data: sprite_data};
+    
+     const sprite_src = "{{site.baseurl}}/images/rpg/girlwalk.png";
+    const sprite_data = {
+        SCALE_FACTOR: 10,
+        STEP_FACTOR: 1000,
+        ANIMATION_RATE: 50,
+        pixels: {height: 264, width: 262},
+        orientation: {rows: 4, columns: 4 },
+        down: {row: 0, start: 0, columns: 4 },
+        left: {row: 1, start: 0, columns: 4 },
+        right: {row: 2, start: 0, columns: 4 },
+        up: {row: 3, start: 0, columns: 4 },
     };
     const sprite = {src: sprite_src, data: sprite_data};
     
