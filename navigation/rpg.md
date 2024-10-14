@@ -30,9 +30,6 @@ permalink: /rpg/
         up: {row: 3, start: 0, columns: 6 },
     };
     const sprite = {src: sprite_src, data: sprite_data};
-    
-
-    
 
     // Assets for game
     //const assets = {}
