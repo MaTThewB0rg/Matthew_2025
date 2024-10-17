@@ -18,7 +18,7 @@ class GameLevelWater {
     let height = GameEnv.innerHeight;
 
     // Background data
-    const image_src_water = path + "/images/rpg/water.png";
+    const image_src_water = path + "/images/rpg/gw2background.png";
     const image_data_water = {
         name: 'water',
         src: image_src_water,
@@ -27,7 +27,7 @@ class GameLevelWater {
 
     // Player 1 sprite data (turtle)
     const TURTLE_SCALE_FACTOR = 10;
-    const sprite_src_turtle = path + "/images/rpg/turtle.png";
+    const sprite_src_turtle = path + "/images/rpg/manwalkvery.png";
     const sprite_data_turtle = {
         name: 'turtle',
         src: sprite_src_turtle,
@@ -35,12 +35,12 @@ class GameLevelWater {
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
         INIT_POSITION: { x: 0, y: height - (height/TURTLE_SCALE_FACTOR) }, 
-        pixels: {height: 280, width: 256},
-        orientation: {rows: 4, columns: 3 },
-        down: {row: 0, start: 0, columns: 3 },
-        left: {row: 1, start: 0, columns: 3 },
-        right: {row: 2, start: 0, columns: 3 },
-        up: {row: 3, start: 0, columns: 3 },
+        pixels: {height: 183, width: 275},
+        orientation: {rows: 4, columns: 6 },
+        down: {row: 0, start: 0, columns: 6 },
+        left: {row: 1, start: 0, columns: 6 },
+        right: {row: 2, start: 0, columns: 6 },
+        up: {row: 3, start: 0, columns: 6 },
     };
 
     // Player 2 sprite data (fish)
