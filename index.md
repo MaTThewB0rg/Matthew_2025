@@ -227,6 +227,13 @@ This is a heading, inside of code scaffolding
 Real
 ![image](https://github.com/user-attachments/assets/8d71b0ba-8eab-4f68-9170-bc052632707b)
 
+## Snake Game
+
+Took not as long as I thought, but still was a bit confusing. It was confusing because I didn't know much on the subject, but now Im probably better at doing stuff like that now than back then.
+
+![alt text](<![image](https://github.com/user-attachments/assets/d503888f-c225-4ca1-98f5-47fe009c47c3)>)
+
+
 ### Development Environment
 
 > Coding starts with tools, explore these tools and procedures with a click.
