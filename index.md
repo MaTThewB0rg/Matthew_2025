@@ -254,6 +254,17 @@ Took a while because I wasn't doing everything and had everything for the game t
     <a href="https://MaTThewB0rg.github.io/Matthew_2025/">
         <img src="https://img.shields.io/badge/GitHub%20Pages-327FC7?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Pages">
     </a>
+
+### Hacks that I have done
+
+>Sprint 2
+
+ <a href="[{{site.baseurl}}/game/intro/json](https://matthewb0rg.github.io/Matthew_2025/game/intro/json" style="text-decoration: none;">
+      <div style="background-color: #eb34dc; color: white; padding: 15px 25px; border-radius: 10px; font-weight: bold;">
+          JSON Objects
+    </div>
+ </a>     
+    
   
 </div>
 
