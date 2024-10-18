@@ -231,7 +231,7 @@ Real
 
 Took not as long as I thought, but still was a bit confusing. It was confusing because I didn't know much on the subject, but now Im probably better at doing stuff like that now than back then.
 
-![alt text](<![image](https://github.com/user-attachments/assets/d503888f-c225-4ca1-98f5-47fe009c47c3)>)
+![image](https://github.com/user-attachments/assets/d503888f-c225-4ca1-98f5-47fe009c47c3)
 
 
 ### Development Environment
