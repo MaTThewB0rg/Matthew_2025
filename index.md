@@ -227,11 +227,20 @@ This is a heading, inside of code scaffolding
 Real
 ![image](https://github.com/user-attachments/assets/8d71b0ba-8eab-4f68-9170-bc052632707b)
 
+### Projects that I feel that I did well on and enjoyed doing
+
 ## Snake Game
 
 Took not as long as I thought, but still was a bit confusing. It was confusing because I didn't know much on the subject, but now Im probably better at doing stuff like that now than back then.
 
 ![image](https://github.com/user-attachments/assets/d503888f-c225-4ca1-98f5-47fe009c47c3)
+
+## RPG game
+
+Took a while because I wasn't doing everything and had everything for the game to work. It eventually worked, and I felt good. The game went from one character, the turtle, and a given background, the water, to a changed sprite and background and more.
+
+![image](https://github.com/user-attachments/assets/91071e7f-d466-4c9c-84d9-bd16d4510fde)
+
 
 
 ### Development Environment
