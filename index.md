@@ -259,7 +259,7 @@ Took a while because I wasn't doing everything and had everything for the game t
 
 >Sprint 2
 
- <a href="[{{site.baseurl}}/game/intro/json](https://matthewb0rg.github.io/Matthew_2025/game/intro/json" style="text-decoration: none;">
+ <a href="https://matthewb0rg.github.io/Matthew_2025/game/intro/json" style="text-decoration: none;">
       <div style="background-color: #eb34dc; color: white; padding: 15px 25px; border-radius: 10px; font-weight: bold;">
           JSON Objects
     </div>
