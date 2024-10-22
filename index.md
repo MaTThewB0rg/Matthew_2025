@@ -276,7 +276,6 @@ Took a while because I wasn't doing everything and had everything for the game t
             Turtle v0.0
         </div>
     </a>
-  </div>
    <a href="{{site.baseurl}}/rpg2" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle v0.1
