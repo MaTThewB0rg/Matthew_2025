@@ -32,7 +32,7 @@ permalink: /rpg1/
 </div>
 
 <script type="module">
-    import GameControl from '{{site.baseurl}}/assets/js/dot0/GameControl.js';
+    import GameControl from '{{site.baseurl}}/assets/js/rpg/dot0/GameControl.js';
 
     const path = "{{site.baseurl}}";
 
