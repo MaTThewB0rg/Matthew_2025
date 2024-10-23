@@ -286,7 +286,6 @@ Took a while because I wasn't doing everything and had everything for the game t
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle v0.2
         </div>
-    </a>
-  </div>
+    </div>
 
 <br>
