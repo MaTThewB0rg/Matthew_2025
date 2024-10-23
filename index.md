@@ -281,14 +281,11 @@ Took a while because I wasn't doing everything and had everything for the game t
             Turtle v0.1
         </div>
     </a>
-       <a href="{{site.baseurl}}/rpg" style="text-decoration: none;">
+   <a href="{{site.baseurl}}/rpg" style="text-decoration: none;">
         <div style="background-color: #FF0000; color: white; padding: 10px 20px; border-radius: 5px; font-weight: bold;">
             Turtle v0.2
         </div>
     </a>
   </div>
-
-  
-</div>
 
 <br>
