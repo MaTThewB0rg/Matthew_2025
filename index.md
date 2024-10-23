@@ -264,6 +264,7 @@ Took a while because I wasn't doing everything and had everything for the game t
     </div>
 
   ### My game progress
+  >Sprint 2
 
   <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <a href="{{site.baseurl}}/snake" style="text-decoration: none;">
