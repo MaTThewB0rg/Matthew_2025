@@ -4,7 +4,7 @@ title: Platformer Game
 permalink: /platformer/
 ---
 
-# Platformer Game
+### Platformer
 
 As I worked with my team on the platformer game, I was able to do some stuff and change the game to fit the overall theme we were going for. I was absent for a while so my team did a lot of the work, but that didn't mean I didn't need to do anything. 
 
