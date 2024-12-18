@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Platformer Game
-permalink: /Platformer/
+permalink: /platformer/
 ---
 
 # Platformer Game
@@ -10,7 +10,7 @@ As I worked with my team on the platformer game, I was able to do some stuff and
 
 ## Contribution
 
-As I worked on the game, I was able to make some changes that helped my team. An example of this is that I was able to change the image of the coin that you need to collect in the game. I also changed the pipe that you usually exit to the next level to. I changed it to a picture of Tyler the Creator to fit Tyler the Creator's theme, and it worked well.
+As I worked on the game, I made some changes that helped my team. For example, I changed the image of the coin you need to collect in the game. I also changed the pipe you usually exit to the next level. I changed it to a picture of Tyler the Creator to fit Tyler the Creator's theme, and it worked well.
 
 ## Images
 
