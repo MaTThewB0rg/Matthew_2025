@@ -32,7 +32,7 @@ class GameLevelDesert {
         src: sprite_src_chillguy,
         SCALE_FACTOR: CHILLGUY_SCALE_FACTOR,
         STEP_FACTOR: 1000,
-        ANIMATION_RATE: 50,
+        ANIMATION_RATE: 100,
         INIT_POSITION: { x: 0, y: height - (height/CHILLGUY_SCALE_FACTOR) }, 
         pixels: {height: 223, width: 226},
         orientation: {rows: 4, columns: 4 },
@@ -110,14 +110,14 @@ class GameLevelDesert {
     }
   
 
-    const sprite_src_robot = path + "/images/gamify/robot.png"; // be sure to include the path
+    const sprite_src_robot = path + "/images/gamify/macawsprite.png"; // be sure to include the path
     const sprite_data_robot = {
         id: 'Robot',
-        greeting: "Hi I am Robot, the Jupyter Notebook mascot.  I am very happy to spend some linux shell time with you!",
+        greeting: "Hi I am Gabriel, the Jupyter Notebook macaw.  I am very happy to spend some linux shell time with you!",
         src: sprite_src_robot,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
-        pixels: {height: 316, width: 627},
+        pixels: {height: 225, width: 225},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
         orientation: {rows: 3, columns: 6 },
         down: {row: 1, start: 0, columns: 6 },  // This is the stationary npc, down is default 
