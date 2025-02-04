@@ -24,18 +24,18 @@ class GameLevelDesert {
 
 
     // Player data for Chillguy
-    const sprite_src_chillguy = path + "/images/gamify/chillguy.png"; // be sure to include the path
+    const sprite_src_chillguy = path + "/images/gamify/lionsprite.png"; // be sure to include the path
     const CHILLGUY_SCALE_FACTOR = 5;
     const sprite_data_chillguy = {
         id: 'Chill Guy',
-        greeting: "Hi I am Chill Guy, the desert wanderer. I am looking for wisdome and adventure!",
+        greeting: "Hi I am Simba, the leader of the lions in this desert. I am looking for wisdome and adventure!",
         src: sprite_src_chillguy,
         SCALE_FACTOR: CHILLGUY_SCALE_FACTOR,
         STEP_FACTOR: 1000,
         ANIMATION_RATE: 50,
         INIT_POSITION: { x: 0, y: height - (height/CHILLGUY_SCALE_FACTOR) }, 
-        pixels: {height: 384, width: 512},
-        orientation: {rows: 3, columns: 4 },
+        pixels: {height: 223, width: 226},
+        orientation: {rows: 4, columns: 4 },
         down: {row: 0, start: 0, columns: 3 },
         left: {row: 2, start: 0, columns: 3 },
         right: {row: 1, start: 0, columns: 3 },
