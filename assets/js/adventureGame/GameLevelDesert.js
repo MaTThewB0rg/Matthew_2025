@@ -79,15 +79,15 @@ class GameLevelDesert {
 
 
       // NPC data for Octocat
-      const sprite_src_octocat = path + "/images/gamify/octocat.png"; // be sure to include the path
+      const sprite_src_octocat = path + "/images/gamify/frafesprite.png"; // be sure to include the path
       const sprite_data_octocat = {
-        id: 'Octocat',
-        greeting: "Hi I am Octocat! I am the GitHub code code code collaboration mascot",
+        id: 'Github Giraffe',
+        greeting: "Hi I am George! I am the GitHub Giraffe helping you code code code!",
         src: sprite_src_octocat,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 301, width: 801},
-        INIT_POSITION: { x: (width / 4), y: (height / 4)},
+        pixels: {height: 133, width: 378},
+        INIT_POSITION: { x: (width / 4), y: (height / 2)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.1 },
