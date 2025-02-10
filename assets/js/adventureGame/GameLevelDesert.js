@@ -86,10 +86,10 @@ class GameLevelDesert {
         src: sprite_src_octocat,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 221, width: 228},
+        pixels: {height: 39, width: 228},
         INIT_POSITION: { x: (width / 4), y: (height / 4)},
-        orientation: {rows: 0, columns: 3 },
-        down: {row: 1, start: 0, columns: 3 },  // This is the stationary npc, down is default 
+        orientation: {rows: 1, columns: 2 },
+        down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightpercentage: 0.1 },
         // GitHub command quiz 
         quiz: { 
@@ -119,8 +119,8 @@ class GameLevelDesert {
         ANIMATION_RATE: 100,
         pixels: {height: 225, width: 225},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
-        orientation: {rows: 3, columns: 6 },
-        down: {row: 1, start: 0, columns: 6 },  // This is the stationary npc, down is default 
+        orientation: {rows: 0, columns: 2 },
+        down: {row: 1, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: { 
