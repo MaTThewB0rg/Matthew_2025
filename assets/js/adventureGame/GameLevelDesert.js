@@ -110,7 +110,7 @@ class GameLevelDesert {
     }
   
 
-    const sprite_src_robot = path + "/images/gamify/macawsprite.png"; // be sure to include the path
+    const sprite_src_robot = path + "/images/gamify/macawbettersprite.png"; // be sure to include the path
     const sprite_data_robot = {
         id: 'Robot',
         greeting: "Hi I am Gabriel, the Jupyter Notebook macaw.  I am very happy to spend some linux shell time with you!",
