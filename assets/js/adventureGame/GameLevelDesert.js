@@ -79,10 +79,10 @@ class GameLevelDesert {
 
 
       // NPC data for Octocat
-      const sprite_src_octocat = path + "/images/gamify/girafesprite.png"; // be sure to include the path
+      const sprite_src_octocat = path + "/images/gamify/cheetahsprite.png"; // be sure to include the path
       const sprite_data_octocat = {
-        id: 'Github Giraffe',
-        greeting: "Hi I am George! I am the GitHub Giraffe helping you code code code!",
+        id: 'Github Cheetah',
+        greeting: "Hi I am George! I am the GitHub Cheetah helping you code code code!",
         src: sprite_src_octocat,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
