@@ -86,11 +86,11 @@ class GameLevelDesert {
         src: sprite_src_octocat,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 50,
-        pixels: {height: 133, width: 378},
+        pixels: {height: 221, width: 228},
         INIT_POSITION: { x: (width / 4), y: (height / 4)},
-        orientation: {rows: 0, columns: 5 },
-        down: {row: 1, start: 0, columns: 5 },  // This is the stationary npc, down is default 
-        hitbox: { widthPercentage: 0.1, heightPercentage: 0.1 },
+        orientation: {rows: 0, columns: 3 },
+        down: {row: 1, start: 0, columns: 3 },  // This is the stationary npc, down is default 
+        hitbox: { widthPercentage: 0.1, heightpercentage: 0.1 },
         // GitHub command quiz 
         quiz: { 
           title: "GitHub Command Quiz",
