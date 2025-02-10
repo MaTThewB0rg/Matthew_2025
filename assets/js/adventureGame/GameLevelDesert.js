@@ -88,7 +88,7 @@ class GameLevelDesert {
         ANIMATION_RATE: 50,
         pixels: {height: 39, width: 228},
         INIT_POSITION: { x: (width / 3), y: (height / 3)},
-        orientation: {rows: 1, columns: 2 },
+        orientation: {rows: 1, columns: 3 },
         down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightpercentage: 0.1 },
         // GitHub command quiz 
@@ -110,7 +110,7 @@ class GameLevelDesert {
     }
   
 
-    const sprite_src_robot = path + "/images/gamify/macawbettersprite.png"; // be sure to include the path
+    const sprite_src_robot = path + "/images/gamify/macawsprite.png"; // be sure to include the path
     const sprite_data_robot = {
         id: 'Robot',
         greeting: "Hi I am Gabriel, the Jupyter Notebook macaw.  I am very happy to spend some linux shell time with you!",
@@ -119,8 +119,8 @@ class GameLevelDesert {
         ANIMATION_RATE: 100,
         pixels: {height: 225, width: 225},
         INIT_POSITION: { x: (width / 3), y: (height / 3)},
-        orientation: {rows: 0, columns: 2 },
-        down: {row: 1, start: 0, columns: 3 },  // This is the stationary npc, down is default 
+        orientation: {rows: 1, columns: 3 },
+        down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: { 
