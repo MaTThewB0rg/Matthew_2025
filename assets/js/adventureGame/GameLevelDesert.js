@@ -85,7 +85,7 @@ class GameLevelDesert {
         greeting: "Hi I am George! I am the GitHub Cheetah helping you code code code!",
         src: sprite_src_octocat,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
-        ANIMATION_RATE: 50,
+        ANIMATION_RATE: 100,
         pixels: {height: 39, width: 228},
         INIT_POSITION: { x: (width / 3), y: (height / 3)},
         orientation: {rows: 1, columns: 3 },
@@ -112,13 +112,13 @@ class GameLevelDesert {
 
     const sprite_src_robot = path + "/images/gamify/macawsprite.png"; // be sure to include the path
     const sprite_data_robot = {
-        id: 'Robot',
-        greeting: "Hi I am Gabriel, the Jupyter Notebook macaw.  I am very happy to spend some linux shell time with you!",
+        id: 'macaws',
+        greeting: "Hi, We are the Jupyter Notebook Macaws.  We are very happy to spend some linux shell time with you!",
         src: sprite_src_robot,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
         pixels: {height: 225, width: 225},
-        INIT_POSITION: { x: (width / 3), y: (height / 3)},
+        INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
         orientation: {rows: 1, columns: 3 },
         down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
