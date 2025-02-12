@@ -45,7 +45,7 @@ class GameLevelWater {
     const sprite_src_nomad = path + "/images/gamify/soldier.png"; // be sure to include the path
     const sprite_data_nomad = {
         id: 'Javanomad',
-        greeting: "How are you so far into site? Either way, hello! I am Java Nomad, the Java Soldier.  I am very happy to spend some linux shell time with you, but we first have to plant defuser!",
+        greeting: "Hello! I am Java Nomad, the Java Soldier.  I am very happy to spend some linux shell time with you, but we first have to go into site and plant defuser!",
         src: sprite_src_nomad,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
