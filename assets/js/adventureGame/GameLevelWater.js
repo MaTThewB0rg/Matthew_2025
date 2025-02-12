@@ -51,8 +51,8 @@ class GameLevelWater {
         ANIMATION_RATE: 100,
         pixels: {height: 640, width: 2519},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
-        orientation: {rows: 0, columns: 3 },
-        down: {row: 1, start: 0, columns: 4 },  // This is the stationary npc, down is default 
+        orientation: {rows: 1, columns: 3 },
+        down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: { 
