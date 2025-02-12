@@ -14,11 +14,11 @@ class GameLevelWater {
     let height = GameEnv.innerHeight;
 
     // Background data
-    const image_src_water = path + "/images/gamify/deepseadungeon.jpeg";
+    const image_src_water = path + "/images/gamify/oregeon.png";
     const image_data_water = {
         id: 'Water',
         src: image_src_water,
-        pixels: {height: 597, width: 340}
+        pixels: {height: 168, width: 300}
     };
 
     const sprite_src_octopus = path + "/images/gamify/octopus.png"; // be sure to include the path
@@ -42,17 +42,17 @@ class GameLevelWater {
     };
 
     // NPC Data for Byte Nomad (Smaller Version)
-    const sprite_src_nomad = path + "/images/gamify/animwizard.png"; // be sure to include the path
+    const sprite_src_nomad = path + "/images/gamify/soldier.png"; // be sure to include the path
     const sprite_data_nomad = {
         id: 'Javanomad',
-        greeting: "Hi I am Java Nomad, the Java mascot.  I am very happy to spend some linux shell time with you!",
+        greeting: "How are you so far into site? Either way, hello! I am Java Nomad, the Java Soldier.  I am very happy to spend some linux shell time with you, but we first have to plant defuser!",
         src: sprite_src_nomad,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 100,
-        pixels: {height: 307, width: 813},
+        pixels: {height: 640, width: 2519},
         INIT_POSITION: { x: (width * 3 / 4), y: (height * 3 / 4)},
-        orientation: {rows: 3, columns: 7 },
-        down: {row: 1, start: 0, columns: 6 },  // This is the stationary npc, down is default 
+        orientation: {rows: 0, columns: 3 },
+        down: {row: 1, start: 0, columns: 4 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
         // Linux command quiz
         quiz: { 
