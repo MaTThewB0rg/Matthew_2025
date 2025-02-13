@@ -41,25 +41,24 @@ class Player extends Character {
     }
 
     handleKeyDown({ keyCode }) {
-        const speedMultiplier = 2.5
         switch (keyCode) {
-            case 87: // 'W' key
-                this.velocity.y = -this.yVelocity * speedMultiplier * 2.5; // extra multiplier is temporary fix
+            case this.keypress.up:
+                this.velocity.y = -this.yVelocity;
                 this.direction = 'up';
                 break;
-            case 65: // 'A' key
-                this.velocity.x = -this.xVelocity * speedMultiplier; // Set velocity to a fixed value
+            case this.keypress.left:
+                this.velocity.x = -this.xVelocity;
                 this.direction = 'left';
                 break;
-            case 83: // 'S' key
-                this.velocity.y = this.yVelocity * speedMultiplier * 2.5; // Set velocity to a fixed value
+            case this.keypress.down:
+                this.velocity.y = this.yVelocity;
                 this.direction = 'down';
                 break;
-            case 68: // 'D' key
-                this.velocity.x = this.xVelocity * speedMultiplier; // Set velocity to a fixed value
+            case this.keypress.right:
+                this.velocity.x += this.xVelocity;
                 this.direction = 'right';
                 break;
-        }    
+        }
     }
 
     /**
