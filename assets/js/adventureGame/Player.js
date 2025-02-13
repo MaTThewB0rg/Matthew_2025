@@ -43,19 +43,19 @@ class Player extends Character {
     handleKeyDown({ keyCode }) {
         switch (keyCode) {
             case this.keypress.up:
-                this.velocity.y = -this.yVelocity;
+                this.velocity.y = -this.yVelocity * speedMultiplier * 2.5; // extra multiplier is temporary fix
                 this.direction = 'up';
                 break;
             case this.keypress.left:
-                this.velocity.x = -this.xVelocity;
+                this.velocity.x = -this.xVelocity * speedMultiplier; // extra multiplier is temporary fix
                 this.direction = 'left';
                 break;
             case this.keypress.down:
-                this.velocity.y = this.yVelocity;
+                this.velocity.y = this.yVelocity * speedMultiplier * 2.5; // extra multiplier is temporary fix
                 this.direction = 'down';
                 break;
             case this.keypress.right:
-                this.velocity.x = this.xVelocity;
+                this.velocity.x = this.xVelocity * speedMultiplier; // extra multiplier is temporary fix
                 this.direction = 'right';
                 break;
         }
