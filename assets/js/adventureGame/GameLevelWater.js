@@ -48,7 +48,7 @@ class GameLevelWater {
         greeting: "Hello! I am Java Nomad, the Java Soldier.  I am very happy to spend some linux shell time with you, but we first have to go into site and plant defuser!",
         src: sprite_src_nomad,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
-        ANIMATION_RATE: 100,
+        ANIMATION_RATE: 30,
         pixels: {height: 640, width: 2519},
         INIT_POSITION: { x: (width / 3), y: (height / 4)},
         orientation: {rows: 1, columns: 4 },
