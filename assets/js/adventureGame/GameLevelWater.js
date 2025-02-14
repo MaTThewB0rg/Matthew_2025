@@ -22,7 +22,7 @@ class GameLevelWater {
     };
 
     const sprite_src_octopus = path + "/images/gamify/rightnowman.png"; // be sure to include the path
-    const OCTOPUS_SCALE_FACTOR = 5;
+    const OCTOPUS_SCALE_FACTOR = 10;
     const sprite_data_octopus = {
         id: 'Octopus',
         greeting: "Hi I am Liam, the lone operator no one knows about. I am looking for wisdome and adventure!",
