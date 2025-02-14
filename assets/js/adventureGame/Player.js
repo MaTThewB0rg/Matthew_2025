@@ -47,7 +47,7 @@ class Player extends Character {
                 this.direction = 'up';
                 break;
             case this.keypress.left:
-                this.velocity.x = this.xVelocity;
+                this.velocity.x = -this.xVelocity;
                 this.direction = 'left';
                 break;
             case this.keypress.down:
