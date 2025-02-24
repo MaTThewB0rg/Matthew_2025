@@ -82,7 +82,7 @@ class GameLevelWater {
         src: sprite_src_soldier,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 40,
-        pixels: {height: 204, width: 802},
+        pixels: {height: 204, width: 798},
         INIT_POSITION: { x: (width / 2), y: (height / 2)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 0, start: 0, columns: 2 },  // This is the stationary npc, down is default 
