@@ -50,7 +50,7 @@ class GameLevelWater {
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 30,
         pixels: {height: 640, width: 2519},
-        INIT_POSITION: { x: (width / 3), y: (height / 4)},
+        INIT_POSITION: { x: (width / 3), y: (height / 3)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 0, start: 0, columns: 3 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
@@ -78,12 +78,12 @@ class GameLevelWater {
     const sprite_src_soldier = path + "/images/gamify/classsoldier.png"; // be sure to include the path
     const sprite_data_soldier = {
         id: 'Soldier',
-        greeting: "Hello! I am a Class Soldier, the Java Soldier.  I am very happy to spend some Class knowledge with you, but we have to hold off site from those pesky Java soldiers!",
+        greeting: "Hello! I am a Class Soldier, I am very happy to spend some Class knowledge with you, but we have to hold off site from those pesky Java soldiers!",
         src: sprite_src_soldier,
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 40,
         pixels: {height: 204, width: 802},
-        INIT_POSITION: { x: (width / 4), y: (height / 4)},
+        INIT_POSITION: { x: (width * 3 / 4), y: (height / 2)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 0, start: 0, columns: 2 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
