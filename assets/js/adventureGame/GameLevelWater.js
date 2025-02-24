@@ -83,7 +83,7 @@ class GameLevelWater {
         SCALE_FACTOR: 10,  // Adjust this based on your scaling needs
         ANIMATION_RATE: 40,
         pixels: {height: 204, width: 802},
-        INIT_POSITION: { x: (width * 3 / 4), y: (height / 2)},
+        INIT_POSITION: { x: (width * 3 / 4), y: (height / 3)},
         orientation: {rows: 1, columns: 4 },
         down: {row: 0, start: 0, columns: 2 },  // This is the stationary npc, down is default 
         hitbox: { widthPercentage: 0.1, heightPercentage: 0.2 },
